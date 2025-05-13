@@ -23,7 +23,7 @@ def pdf_to_html(pdf_path, output_html_path):
     with open(output_html_path, 'w', encoding='utf-8') as f:
         f.write(html_content)
 
-    print(f"HTML dosyası '{output_html_path}' olarak kaydedildi.")
+    print(f"HTML file '{output_html_path}' olarak kaydedildi.")
 
 def select_pdf_and_convert():
    
