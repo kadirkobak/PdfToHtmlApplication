@@ -2,10 +2,10 @@ from pdfminer.high_level import extract_text
 from html import escape
 
 def pdf_to_html(pdf_path, output_html_path):
-    # PDF dosyasýndaki metni çýkar
+   
     text = extract_text(pdf_path)
     
-    # HTML þablonunu oluþtur
+   
     html_content = f"""
     <html>
     <head>
